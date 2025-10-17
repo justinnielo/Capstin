@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Capstin.</title>
+
+  <!-- Add favicon (browser tab icon) -->
+  <link rel="icon" href="logo c.jpg" type="image/jpg">
+  <link rel="apple-touch-icon" href="logo c.jpg">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="nav">
+      <div class="brand">
+        <img src="logo c.jpg" alt="Capstin logo" class="logo">
+        <div>
+          <div style="font-size:14px">Capstin.</div>
+          <div style="font-size:12px;color:var(--muted);margin-top:2px">Quality caps local</div>
+        </div>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a class="cta" href="#contact">Order Now</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="hero-card">
+        <div class="eyebrow">New Arrivals</div>
+        <h1>Quality caps for everyday</h1>
+        <p class="lead">Stylish. Comfortable. Built to last. Check out our collection  we have snapbacks, fitted caps, and embroidered designs.</p>
+        <div class="caps-row">
+          <button class="btn">Shop caps</button>
+          <button class="btn">Custom orders</button>
+        </div>
+
+        <div class="products" style="margin-top:18px">
+          <article class="card">
+            <div class="product-img"><img src="LA BLUE.jpg" alt="cap 1"></div>
+            <h3 style="margin:10px 0 6px">LA Blue Fitted</h3>
+            <div style="display:flex;justify-content:space-between;align-items:center">
+              <div class="price">₱499</div>
+              <div style="font-size:13px;color:var(--muted)">Available</div>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="product-img"><img src="STUSSY.jpg" alt="cap 2"></div>
+           <h3 style="margin:10px 0 6px">STUSSY Embroidered Cap</h3>
+            <div style="display:flex;justify-content:space-between;align-items:center">
+              <div class="price">₱349</div>
+              <div style="font-size:13px;color:var(--muted)">Limited</div>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="product-img"><img src="NEW ROSE.jpg" alt="cap 3"></div>
+            <h3 style="margin:10px 0 6px">LA Rose Snapback Cap</h3>
+            <div style="display:flex;justify-content:space-between;align-items:center">
+              <div class="price">₱449</div>
+              <div style="font-size:13px;color:var(--muted)">Restock</div>
+            </div>
+          </article>
+          <article class="card">
+            <div class="product-img"><img src="OHTANI.jpg" alt="cap 3"></div>
+            <h3 style="margin:10px 0 6px">OHTANI Snapback Cap</h3>
+            <div style="display:flex;justify-content:space-between;align-items:center">
+              <div class="price">₱449</div>
+              <div style="font-size:13px;color:var(--muted)">Restock</div>
+            </div>
+          </article>
+        </div>
+      </div>
+
+      <aside class="mockup">
+        <img src="CAPS.jpg" alt="cap mockup"> 
+      </aside>
+    </section>
+
+    <section id="about">
+      <div class="about-grid">
+        <div class="hero-card">
+          <h2>About Us</h2>
+          <p style="color:var(--muted)">We are a small local business creating caps with attention to detail. From choosing the fabric to the final stitch our goal is to provide comfortable designs that fit your lifestyle.</p>
+
+          <ul style="margin-top:12px;color:var(--muted)">
+            <li>Quality materials</li>
+            <li>Custom embroidery</li>
+            <li>Eco-friendly packaging</li>
+          </ul>
+
+          <div style="margin-top:12px"><button class="btn">Our story</button></div>
+        </div>
+
+        <div class="hero-card">
+          <h3>Why choose us?</h3>
+          <p style="color:var(--muted)">Local production faster delivery and support. Small batches to ensure high quality.</p>
+
+          <div style="margin-top:10px">
+            <strong>Follow us</strong>
+            <div style="margin-top:8px;color:var(--muted)">@capstin</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div style="display:grid;grid-template-columns:1fr 360px;gap:18px;margin-top:18px">
+        <div class="hero-card contact-form">
+          <h2>Contact / Order</h2>
+          <p style="color:var(--muted);margin-top:6px">Have a question or want to order? Fill out the form or email <strong>Justinnielo10@gmail.com</strong>.</p>
+
+          <form id="contactForm">
+            <label for="name">Name</label>
+            <input id="name" name="name" placeholder="Juan dela Cruz" required>
+
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" placeholder="example@email.com" required>
+
+            <label for="message">Message / Order Details</label>
+            <textarea id="message" name="message" placeholder="Enter order details: color, quantity, design, etc." required></textarea>
+
+            <button class="submit" type="submit">Send Message</button>
+          </form>
+        </div>
+
+        <aside class="hero-card">
+          <h3>Contact Details</h3>
+          <p style="color:var(--muted);margin-top:6px">Phone: <strong>09634430808</strong><br>Address: <span style="color:var(--muted)">Quezon City, Philippines</span></p>
+
+          <h4 style="margin-top:12px">Opening Hours</h4>
+          <p style="color:var(--muted);margin-top:4px">Mon–Sat: 9:00AM — 6:00PM<br>Sun: Closed</p>
+
+          <div style="margin-top:12px">
+            <strong>Quick Links</strong>
+            <ul style="color:var(--muted);margin-top:8px">
+              <li>Shipping info</li>
+              <li>Return policy</li>
+            </ul>
+          </div>
+        </aside>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div style="max-width:1100px;margin:0 auto;padding:0 20px;display:flex;justify-content:space-between;align-items:center">
+      <div>© 2025 Capstin. All rights reserved.</div>
+      <div style="color:var(--muted)">Built with ❤️ · Local business</div>
+    </div>
+  </footer>
+</body>
+</html>
